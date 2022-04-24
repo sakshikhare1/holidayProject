@@ -1,0 +1,17 @@
+C:\Users\Parikshit\source\repos\HolidaySearchTestProject\HolidaySearchTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Parikshit\source\repos\HolidaySearchTestProject\HolidaySearchTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Parikshit\source\repos\HolidaySearchTestProject\HolidaySearchTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Parikshit\source\repos\HolidaySearchTestProject\HolidaySearchTestProject\bin\Debug\HolidaySearchTestProject.dll
+C:\Users\Parikshit\source\repos\HolidaySearchTestProject\HolidaySearchTestProject\bin\Debug\HolidaySearchTestProject.pdb
+C:\Users\Parikshit\source\repos\HolidaySearchTestProject\HolidaySearchTestProject\bin\Debug\HolidaySearchProject.dll
+C:\Users\Parikshit\source\repos\HolidaySearchTestProject\HolidaySearchTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Parikshit\source\repos\HolidaySearchTestProject\HolidaySearchTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Parikshit\source\repos\HolidaySearchTestProject\HolidaySearchTestProject\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Parikshit\source\repos\HolidaySearchTestProject\HolidaySearchTestProject\bin\Debug\HolidaySearchProject.pdb
+C:\Users\Parikshit\source\repos\HolidaySearchTestProject\HolidaySearchTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Parikshit\source\repos\HolidaySearchTestProject\HolidaySearchTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Parikshit\source\repos\HolidaySearchTestProject\HolidaySearchTestProject\obj\Debug\HolidaySearchTestProject.csprojAssemblyReference.cache
+C:\Users\Parikshit\source\repos\HolidaySearchTestProject\HolidaySearchTestProject\obj\Debug\HolidaySearchTestProject.csproj.CoreCompileInputs.cache
+C:\Users\Parikshit\source\repos\HolidaySearchTestProject\HolidaySearchTestProject\obj\Debug\HolidaySearchTestProject.csproj.CopyComplete
+C:\Users\Parikshit\source\repos\HolidaySearchTestProject\HolidaySearchTestProject\obj\Debug\HolidaySearchTestProject.dll
+C:\Users\Parikshit\source\repos\HolidaySearchTestProject\HolidaySearchTestProject\obj\Debug\HolidaySearchTestProject.pdb

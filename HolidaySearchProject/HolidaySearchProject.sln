@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolidaySearchProject", "HolidaySearchProject\HolidaySearchProject.csproj", "{767FB3EC-1CBA-4BF1-B5F6-B951239E15CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolidaySearchTestProject", "..\HolidaySearchTestProject\HolidaySearchTestProject\HolidaySearchTestProject.csproj", "{F4B41641-B4D9-43D0-8621-A0A5BF38914D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{767FB3EC-1CBA-4BF1-B5F6-B951239E15CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{767FB3EC-1CBA-4BF1-B5F6-B951239E15CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{767FB3EC-1CBA-4BF1-B5F6-B951239E15CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{767FB3EC-1CBA-4BF1-B5F6-B951239E15CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4B41641-B4D9-43D0-8621-A0A5BF38914D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4B41641-B4D9-43D0-8621-A0A5BF38914D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4B41641-B4D9-43D0-8621-A0A5BF38914D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4B41641-B4D9-43D0-8621-A0A5BF38914D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F70BB35D-C790-485C-A3C6-2DAA2A76CABF}
+	EndGlobalSection
+EndGlobal

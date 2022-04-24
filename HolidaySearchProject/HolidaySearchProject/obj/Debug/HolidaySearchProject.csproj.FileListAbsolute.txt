@@ -1,0 +1,10 @@
+C:\Users\Parikshit\source\repos\HolidaySearchProject\HolidaySearchProject\bin\Debug\HolidaySearchProject.dll
+C:\Users\Parikshit\source\repos\HolidaySearchProject\HolidaySearchProject\bin\Debug\HolidaySearchProject.pdb
+C:\Users\Parikshit\source\repos\HolidaySearchProject\HolidaySearchProject\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Parikshit\source\repos\HolidaySearchProject\HolidaySearchProject\bin\Debug\StreamJsonRpc.dll
+C:\Users\Parikshit\source\repos\HolidaySearchProject\HolidaySearchProject\bin\Debug\Microsoft.VisualStudio.Validation.dll
+C:\Users\Parikshit\source\repos\HolidaySearchProject\HolidaySearchProject\bin\Debug\Microsoft.VisualStudio.Validation.xml
+C:\Users\Parikshit\source\repos\HolidaySearchProject\HolidaySearchProject\obj\Debug\HolidaySearchProject.csproj.CoreCompileInputs.cache
+C:\Users\Parikshit\source\repos\HolidaySearchProject\HolidaySearchProject\obj\Debug\HolidaySearchProject.csproj.CopyComplete
+C:\Users\Parikshit\source\repos\HolidaySearchProject\HolidaySearchProject\obj\Debug\HolidaySearchProject.dll
+C:\Users\Parikshit\source\repos\HolidaySearchProject\HolidaySearchProject\obj\Debug\HolidaySearchProject.pdb

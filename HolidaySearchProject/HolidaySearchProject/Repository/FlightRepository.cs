@@ -11,20 +11,20 @@ namespace HolidaySearchProject.Repository
 {
     static class FlightRepository
     {
-        private static Lazy<List<Flight>> _data = new Lazy<List<Flight>>(() => GetData());
+        private static Lazy<IQueryable<Flight>> _data = new Lazy<IQueryable<Flight>>(() => GetData());
 
  
-        private static List<Flight> GetData()
+        private static IQueryable<Flight> GetData()
         {
             using (StreamReader r = new StreamReader(@"C:\Users\Parikshit\source\repos\HolidaySearchProject\HolidaySearchProject\Assets\flights.json"))
             {
                 string json = r.ReadToEnd();
-                List<Flight> items = JsonConvert.DeserializeObject<List<Flight>>(json);
-                return items;
+                IEnumerable<Flight> items = JsonConvert.DeserializeObject<IEnumerable<Flight>>(json);
+                return items.AsQueryable();
             }
         }
 
-        public static List<Flight> Data => _data.Value;
+        public static IQueryable<Flight> Data => _data.Value;
 
     }
 }

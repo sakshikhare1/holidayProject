@@ -13,9 +13,9 @@ namespace HolidaySearchProject.BusinessClasses
         public decimal Price { get; set; }
         public string Departure_Date { get; set; }
 
-        public static IQueryable<Flight> Filter(List<Flight> list, SearchQuery query)
+        public static IQueryable<Flight> Filter(IQueryable<Flight> data, SearchQuery query)
         {
-            var data = list.AsQueryable();
+           
             if (query.DepartingFrom != null && query.DepartingFrom.Length > 0)
                 data = data.Where((e) => FilterUtility.Compare(query.DepartingFrom, e.From));
 

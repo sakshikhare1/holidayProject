@@ -15,10 +15,8 @@ namespace HolidaySearchProject.BusinessClasses
         public string[]Local_Airports { get; set; }
         public int Nights { get; set; }
 
-        public static IQueryable<Hotel> Filter(List<Hotel> list, SearchQuery query)
+        public static IQueryable<Hotel> Filter(IQueryable<Hotel> data, SearchQuery query)
         {
-            var data = list.AsQueryable();
-
 
             if (query.TravelingTo != null && query.TravelingTo.Length > 0)
                 data = data.Where((e) => FilterUtility.Compare(query.TravelingTo, e.Local_Airports));

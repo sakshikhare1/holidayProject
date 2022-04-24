@@ -61,5 +61,56 @@ namespace HolidaySearchTestProject
 
 
         }
+        [TestMethod]
+        public void TestCase4()
+        {
+
+            var JsonQuery = @"{
+                               TravelingTo: ['TFS'],
+                               Duration: [7]
+                               }";
+            var output = new HolidaySearch(JsonQuery);
+            var flightid = output.Results[0].Flight.Id;
+            var hotelid = output.Results[0].Hotel.Id;
+            Assert.AreEqual(1, flightid);
+            Assert.AreEqual(2, hotelid);
+
+
+        }
+        [TestMethod]
+        public void TestCase5()
+        {
+
+            var JsonQuery = @"{
+                               DepartingFrom: ['LTN'],
+                               TravelingTo: ['PMI'],
+                               
+                               }";
+            var output = new HolidaySearch(JsonQuery);
+            var flightid = output.Results[0].Flight.Id;
+            var hotelid = output.Results[0].Hotel.Id;
+            Assert.AreEqual(4, flightid);
+            Assert.AreEqual(3, hotelid);
+
+
+        }
+
+        [TestMethod]
+        public void TestCase6()
+        {
+
+            var JsonQuery = @"{
+                               DepartureDate: ['2022-11-10'],
+                               TravelingTo: ['LPA'],
+                              }";
+            var output = new HolidaySearch(JsonQuery);
+            var flightid = output.Results[0].Flight.Id;
+            var hotelid = output.Results[0].Hotel.Id;
+            Assert.AreEqual(7, flightid);
+            Assert.AreEqual(3, hotelid);
+
+
+        }
+
     }
 }

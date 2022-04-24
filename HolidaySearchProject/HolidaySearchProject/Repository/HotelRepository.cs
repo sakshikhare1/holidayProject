@@ -11,19 +11,19 @@ namespace HolidaySearchProject.Repository
 {
      class HotelRepository
     {
-        private static Lazy<List<Hotel>> _data = new Lazy<List<Hotel>>(() => GetData());
+        private static Lazy<IQueryable<Hotel>> _data = new Lazy<IQueryable<Hotel>>(() => GetData());
 
 
-        private static List<Hotel> GetData()
+        private static IQueryable<Hotel> GetData()
         {
             using (StreamReader r = new StreamReader(@"C:\Users\Parikshit\source\repos\HolidaySearchProject\HolidaySearchProject\Assets\hotels.json"))
             {
                 string json = r.ReadToEnd();
-                List<Hotel> items = JsonConvert.DeserializeObject<List<Hotel>>(json);
-                return items;
+                IEnumerable<Hotel> items = JsonConvert.DeserializeObject<IEnumerable<Hotel>>(json);
+                return items.AsQueryable();
             }
         }
 
-        public static List<Hotel> Data => _data.Value;
+        public static IQueryable<Hotel> Data => _data.Value;
     }
 }
